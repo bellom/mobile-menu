@@ -560,3 +560,22 @@ textarea {
     height: 32px;
   }
 }
+
+.list-item a {
+  border-bottom: 1px solid #6f6c6b;
+  padding-left: 35px;
+  top: calc(50% - 24px/2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: left;
+  color: #FFF5E1;
+}
+
+.close-item {
+  display: none;
+  margin-left: auto;
+}

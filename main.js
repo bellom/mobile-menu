@@ -7,7 +7,7 @@ const closeItem = document.querySelector('.close-item');
 const closeNav = document.querySelector('.close-nav');
 const navItem = document.querySelectorAll('.list-item');
 
-const openMenu = () => {
+function openMenu () {
   body.style.backgroundColor = '#3c3a39';
   main.style.display = 'none';
   footer.style.display = 'none';

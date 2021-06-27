@@ -1,11 +1,11 @@
-let body = document.querySelector('body');
-let main = document.querySelector('.main');
-let footer = document.querySelector('footer');
-let hideLogo = document.querySelector('#logo');
-let openItem = document.querySelector('.open-item');
-let closeItem = document.querySelector('.close-item');
-let closeNav = document.querySelector('.close-nav');
-let navItem = document.querySelectorAll('.list-item');
+const body = document.querySelector('body');
+const main = document.querySelector('.main');
+const footer = document.querySelector('footer');
+const hideLogo = document.querySelector('#logo');
+const openItem = document.querySelector('.open-item');
+const closeItem = document.querySelector('.close-item');
+const closeNav = document.querySelector('.close-nav');
+const navItem = document.querySelectorAll('.list-item');
 
 const openMenu = () => {
   body.style.backgroundColor = '#3c3a39';
@@ -27,5 +27,5 @@ const closeMenu = () => {
 };
 
 navItem.forEach((item) => {
-  item.addEventListener("click", () => closeMenu());
+  item.addEventListener('click', () => closeMenu());
 });

@@ -23,8 +23,8 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Setup
-- Clone the repository
-- cd into the cloned repo directory using the command line
+- Clone https://github.com/bellom/mobile-menu.git
+- cd `mobile-menu`
 - Open it in your preferred code editor
 
 ## 👤 Author

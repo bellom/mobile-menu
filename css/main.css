@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -559,4 +560,21 @@ textarea {
     width: 3vw;
     height: 32px;
   }
+}
+
+.list-item a {
+  border-bottom: 1px solid #6f6c6b;
+  padding-left: 35px;
+  top: calc(50% - 24px / 2);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #fff5e1;
+}
+
+.close-item {
+  display: none;
+  margin-left: auto;
 }

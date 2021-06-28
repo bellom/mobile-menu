@@ -11,12 +11,15 @@
   <body>
     <header>
       <h1 id="logo">Sean Bellom</h1>
-      <button type="button" class="menu-bars">
+      <button type="button" class = "menu-bars open-item" onclick="openMenu()">
         <i class="fas fa-bars"></i>
+      </button>
+      <button type="button" class = "menu-bars close-item" onclick="closeMenu()">
+        <i class="fas fa-times"></i>
       </button>
       <nav id="desktop-nav">
         <ul>
-          <li><a class="nav-link" href="#projects">Portoflio</a></li>
+          <li><a class="nav-link" href="#projects">Portfolio</a></li>
           <li><a class="nav-link" href="#about-me">About</a></li>
           <li>
             <a class="nav-link" href="#contact"
@@ -26,7 +29,14 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <div class = "close-nav close-item">
+      <ul>
+        <li class="list-item"><a href="#projects">Portfolio</a></li>
+        <li class="list-item"><a href="#about-me">About</a></li>
+        <li class="list-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="main">
       <div id="intro">
         <div class="intro-icon">
           <img
@@ -284,7 +294,7 @@
         <div class="stacks">
           <ul>
             <li class="languages list-title">
-              Languages
+              Language
               <ul>
                 <li>JavaScript</li>
                 <li>TypeScript</li>
@@ -375,7 +385,7 @@
           <button type="submit" class="link centered-link">Send</button>
         </form>
       </div>
-    </main>
+    </div>
     <footer class="social footer-social">
       <a
         class="social-link"
@@ -438,6 +448,7 @@
         />
       </a>
     </footer>
+    <script src="main.js"></script>
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
